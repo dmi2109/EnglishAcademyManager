@@ -157,6 +157,8 @@ namespace EnglishAcademyManage_GUI
         private void btnTeacher_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
+            OpenChildForm(new frmTeachers());
+
         }
 
         private void btnClass_Click(object sender, EventArgs e)
@@ -172,6 +174,8 @@ namespace EnglishAcademyManage_GUI
         private void btnReceipt_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
+            OpenChildForm(new frmReceipt());
+
         }
 
         private void iconEmployee_Click(object sender, EventArgs e)
