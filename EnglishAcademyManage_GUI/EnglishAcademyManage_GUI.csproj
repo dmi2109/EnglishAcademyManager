@@ -70,17 +70,23 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddReceipt.Designer.cs">
+      <DependentUpon>frmAddReceipt.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEnglishAcademyManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEnglishAcademyManage.Designer.cs">
       <DependentUpon>frmEnglishAcademyManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStudents.cs">
+    <Compile Include="frmReceipt.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStudents.Designer.cs">
-      <DependentUpon>frmStudents.cs</DependentUpon>
+    <Compile Include="frmReceipt.Designer.cs">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -90,11 +96,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddReceipt.resx">
+      <DependentUpon>frmAddReceipt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEnglishAcademyManage.resx">
       <DependentUpon>frmEnglishAcademyManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStudents.resx">
-      <DependentUpon>frmStudents.cs</DependentUpon>
+    <EmbeddedResource Include="frmReceipt.resx">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

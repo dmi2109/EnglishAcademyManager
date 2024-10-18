@@ -28,3 +28,18 @@ C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcadem
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.dll.config
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.xml
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.dll.config
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.pdb
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.pdb
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.dll.config
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.xml
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.csproj.AssemblyReference.cache
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.csproj.CoreCompileInputs.cache
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\obj\Debug\EnglishA.77BBF36E.Up2Date
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.pdb

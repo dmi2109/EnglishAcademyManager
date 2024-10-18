@@ -41,7 +41,7 @@ namespace EnglishAcademyManage_GUI
             // Add PictureBox to display image
             PictureBox logoPictureBox = new PictureBox
             {
-                Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
+                Image = Image.FromFile("C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
                 SizeMode = PictureBoxSizeMode.Zoom, // Maintain aspect ratio
                 Size = new Size(250, 250), // Size to match the panel
                 Location = new Point(0, 0) // Position within the panel
@@ -84,8 +84,8 @@ namespace EnglishAcademyManage_GUI
             };
             this.Controls.Add(usernameTextBox);
 
-            string eyeOpenIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
-            string eyeClosedIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
+            string eyeOpenIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
+            string eyeClosedIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
 
             // Password
             SiticoneTextBox passwordTextBox = new SiticoneTextBox
