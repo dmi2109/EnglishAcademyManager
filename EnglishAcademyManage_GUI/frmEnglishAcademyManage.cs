@@ -18,7 +18,7 @@ namespace EnglishAcademyManage_GUI
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
-        public frmEnglishAcademyManage(string role)
+        public frmEnglishAcademyManage(/*string role*/)
         {
             InitializeComponent();
             CollapseMeunu();
@@ -30,7 +30,7 @@ namespace EnglishAcademyManage_GUI
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
-            CustomizeUIBasedOnRole(role);
+            //CustomizeUIBasedOnRole(role);
         }
 
         //Drag Form
@@ -55,12 +55,12 @@ namespace EnglishAcademyManage_GUI
                 DisableButton();
                 //Button
                 currentBtn = (IconButton)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(37, 36, 81);
+                currentBtn.BackColor = Color.FromArgb(240, 248, 255);
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
                 currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
-                currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
+                currentBtn.ImageAlign = ContentAlignment.MiddleCenter;
                 //Left border button
                 leftBorderBtn.BackColor = color;
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
@@ -74,10 +74,10 @@ namespace EnglishAcademyManage_GUI
             {
                 currentBtn.BackColor = Color.FromArgb(240, 248, 255);
                 currentBtn.ForeColor = Color.Black;
-                currentBtn.TextAlign = ContentAlignment.MiddleLeft;
+                currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = Color.Black;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
-                currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
+                currentBtn.ImageAlign = ContentAlignment.MiddleCenter;
             }
         }
         private void OpenChildForm(Form childForm)
@@ -126,34 +126,7 @@ namespace EnglishAcademyManage_GUI
             }
 
         }
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            CollapseMeunu();
-        }
-
-        private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
-        {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btnMaximize_Click(object sender, EventArgs e)
-        {
-            if (WindowState == FormWindowState.Normal)
-                WindowState = FormWindowState.Maximized;
-            else
-                WindowState = FormWindowState.Normal;
-        }
-
-        private void btnMinimize_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-        }
+    
 
         private void frmEnglishAcademyManage_Resize(object sender, EventArgs e)
         {
@@ -164,15 +137,11 @@ namespace EnglishAcademyManage_GUI
                 FormBorderStyle = FormBorderStyle.Sizable;
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color2);
-
-        }
 
         private void btnStudent_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
+            OpenChildForm(new frmStudents());
         }
 
         private void btnSchedule_Click(object sender, EventArgs e)
@@ -240,25 +209,34 @@ namespace EnglishAcademyManage_GUI
             Reset();
         }
 
-        private void btnMinimize_Click_1(object sender, EventArgs e)
+
+        private void panelTitleBar_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            CollapseMeunu();
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
 
-        private void btnMaximize_Click_1(object sender, EventArgs e)
+        private void btnMaximize_Click(object sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Normal)
+            if(WindowState == FormWindowState.Normal)
                 WindowState = FormWindowState.Maximized;
             else
                 WindowState = FormWindowState.Normal;
         }
 
-        private void btnExit_Click_1(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Maximized)
-                FormBorderStyle = FormBorderStyle.None;
-            else
-                FormBorderStyle = FormBorderStyle.Sizable;
+            Application.Exit();
         }
     }
 }
