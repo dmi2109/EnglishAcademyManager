@@ -28,6 +28,12 @@ namespace EnglishAcademyManage_DAL.Entities
         [StringLength(10)]
         public string employee_id { get; set; }
 
+        [StringLength(255)]
+        public string description { get; set; }
+
+        [StringLength(20)]
+        public string payment_status { get; set; }
+
         public virtual Employee Employee { get; set; }
 
         public virtual Student Student { get; set; }
