@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\mai di\u1EC7u mi\\englishacademymanage\\englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\mai di\u1EC7u mi\\englishacademymanage\\englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|c:\\users\\maidi\\onedrive\\desktop\\mai di\u1EC7u mi\\englishacademymanage\\englishacademymanage_bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|solutionrelative:englishacademymanage_bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\mai di\u1EC7u mi\\englishacademymanage\\englishacademymanage_gui\\frmenglishacademymanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmenglishacademymanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\englishacademymanage_gui\\frmenglishacademymanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmenglishacademymanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\englishacademymanage_gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\englishacademymanage_gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\englishacademymanage_dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|solutionrelative:englishacademymanage_dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\englishacademymanage_gui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_BUS\\StudentService.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_BUS\\StudentService.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_BUS\\StudentService.cs",
+              "RelativeToolTip": "EnglishAcademyManage_BUS\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:33:48.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmStudents.cs",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmStudents.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmStudents.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmStudents.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmStudents.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwDMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:27:57.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmStudents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmStudents.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmStudents.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmStudents.cs [Design]",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmStudents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:25:21.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEnglishAcademyManage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs [Design]",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:48:34.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmEnglishAcademyManage.cs",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmEnglishAcademyManage.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAWwAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:51:39.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\Login.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwD4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:28:04.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.Designer.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\Login.Designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:37:45.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Login.cs [Design]",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:15:15.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_DAL\\App.config",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_DAL\\App.config",
+              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Di\u1EC7u Mi\\EnglishAcademyManage\\EnglishAcademyManage_DAL\\App.config",
+              "RelativeToolTip": "EnglishAcademyManage_DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-16T16:26:10.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
