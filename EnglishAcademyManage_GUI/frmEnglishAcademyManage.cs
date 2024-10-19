@@ -181,6 +181,7 @@ namespace EnglishAcademyManage_GUI
         private void iconEmployee_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
+            OpenChildForm(new frmEmployees());
         }
 
         private void CustomizeUIBasedOnRole(string role)

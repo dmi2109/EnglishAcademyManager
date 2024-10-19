@@ -164,7 +164,8 @@ namespace EnglishAcademyManage_GUI
             foreach (DataGridViewRow row in dgvTeacher.Rows)
             {
                 bool found = row.Cells[0].Value.ToString().ToLower().Contains(searchValue) ||
-                             row.Cells[2].Value.ToString().ToLower().Contains(searchValue);
+                             row.Cells[2].Value.ToString().ToLower().Contains(searchValue) ||
+                             row.Cells[5].Value.ToString().ToLower().Contains(searchValue);
 
                 row.Visible = found;
             }

@@ -105,3 +105,4 @@ C:\Users\maidi\OneDrive\Desktop\EnglishAcademyManager\EnglishAcademyManage_GUI\o
 C:\Users\maidi\OneDrive\Desktop\EnglishAcademyManager\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.pdb
 C:\Users\maidi\OneDrive\Desktop\EnglishAcademyManager\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.frmStudents.resources
 C:\Users\maidi\OneDrive\Desktop\EnglishAcademyManager\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.frmTeachers.resources
+C:\Users\maidi\OneDrive\Desktop\EnglishAcademyManager\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.frmEmployees.resources

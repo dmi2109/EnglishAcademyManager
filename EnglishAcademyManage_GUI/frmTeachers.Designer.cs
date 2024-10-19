@@ -30,30 +30,30 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblEmail = new System.Windows.Forms.Label();
             this.lblTeacherInfor = new System.Windows.Forms.Label();
-            this.txtPhone = new System.Windows.Forms.TextBox();
             this.lblTeacherID = new System.Windows.Forms.Label();
-            this.lblPhone = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtTeacherID = new System.Windows.Forms.TextBox();
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dgvTeacher = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.clnStudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeacher)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
@@ -92,33 +92,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1078, 176);
             this.tableLayoutPanel1.TabIndex = 40;
             // 
-            // txtEmail
-            // 
-            this.txtEmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEmail.Location = new System.Drawing.Point(653, 136);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(396, 28);
-            this.txtEmail.TabIndex = 4;
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEmail.Location = new System.Drawing.Point(578, 132);
-            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(67, 44);
-            this.lblEmail.TabIndex = 10;
-            this.lblEmail.Text = "Email";
-            // 
             // lblTeacherInfor
             // 
             this.lblTeacherInfor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -134,19 +107,6 @@
             this.lblTeacherInfor.TabIndex = 13;
             this.lblTeacherInfor.Text = "Thông Tin Giáo Viên";
             // 
-            // txtPhone
-            // 
-            this.txtPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtPhone.Location = new System.Drawing.Point(221, 136);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(349, 28);
-            this.txtPhone.TabIndex = 3;
-            // 
             // lblTeacherID
             // 
             this.lblTeacherID.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -161,21 +121,6 @@
             this.lblTeacherID.Size = new System.Drawing.Size(209, 44);
             this.lblTeacherID.TabIndex = 8;
             this.lblTeacherID.Text = "Mã Học Viên";
-            // 
-            // lblPhone
-            // 
-            this.lblPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPhone.AutoSize = true;
-            this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPhone.Location = new System.Drawing.Point(4, 132);
-            this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(209, 44);
-            this.lblPhone.TabIndex = 0;
-            this.lblPhone.Text = "Số Điện Thoại";
             // 
             // txtLastName
             // 
@@ -245,6 +190,61 @@
             this.lblFirstName.TabIndex = 0;
             this.lblFirstName.Text = "Tên";
             // 
+            // lblPhone
+            // 
+            this.lblPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPhone.Location = new System.Drawing.Point(4, 132);
+            this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(209, 44);
+            this.lblPhone.TabIndex = 0;
+            this.lblPhone.Text = "Số Điện Thoại";
+            // 
+            // txtPhone
+            // 
+            this.txtPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtPhone.Location = new System.Drawing.Point(221, 136);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(349, 28);
+            this.txtPhone.TabIndex = 3;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtEmail.Location = new System.Drawing.Point(653, 136);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(396, 28);
+            this.txtEmail.TabIndex = 4;
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblEmail.Location = new System.Drawing.Point(578, 132);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(67, 44);
+            this.lblEmail.TabIndex = 10;
+            this.lblEmail.Text = "Email";
+            // 
             // btnSearch
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -281,6 +281,47 @@
             this.dgvTeacher.Size = new System.Drawing.Size(1005, 332);
             this.dgvTeacher.TabIndex = 49;
             this.dgvTeacher.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeacher_CellContentClick);
+            // 
+            // clnStudentID
+            // 
+            this.clnStudentID.FillWeight = 60F;
+            this.clnStudentID.HeaderText = "Mã Giáo Viên";
+            this.clnStudentID.MinimumWidth = 9;
+            this.clnStudentID.Name = "clnStudentID";
+            // 
+            // Column2
+            // 
+            this.Column2.FillWeight = 70F;
+            this.Column2.HeaderText = "Họ và Tên Đệm";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.FillWeight = 40F;
+            this.Column3.HeaderText = "Tên";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // Column5
+            // 
+            this.Column5.FillWeight = 63F;
+            this.Column5.HeaderText = "Số Điện Thoại";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            // 
+            // Column1
+            // 
+            this.Column1.FillWeight = 70F;
+            this.Column1.HeaderText = "Email";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Trạng thái";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
             // 
             // btnAdd
             // 
@@ -331,50 +372,9 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // clnStudentID
-            // 
-            this.clnStudentID.FillWeight = 60F;
-            this.clnStudentID.HeaderText = "Mã Giáo Viên";
-            this.clnStudentID.MinimumWidth = 9;
-            this.clnStudentID.Name = "clnStudentID";
-            // 
-            // Column2
-            // 
-            this.Column2.FillWeight = 70F;
-            this.Column2.HeaderText = "Họ và Tên Đệm";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.FillWeight = 40F;
-            this.Column3.HeaderText = "Tên";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            // 
-            // Column5
-            // 
-            this.Column5.FillWeight = 63F;
-            this.Column5.HeaderText = "Số Điện Thoại";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 70F;
-            this.Column1.HeaderText = "Email";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
             // err
             // 
             this.err.ContainerControl = this;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Trạng thái";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
             // 
             // frmTeachers
             // 
@@ -389,7 +389,6 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "frmTeachers";
             this.Text = "frmTeachers";
             this.Load += new System.EventHandler(this.frmTeachers_Load);

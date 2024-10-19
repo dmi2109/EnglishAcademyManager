@@ -76,6 +76,12 @@
     <Compile Include="frmAddReceipt.Designer.cs">
       <DependentUpon>frmAddReceipt.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees.Designer.cs">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEnglishAcademyManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAddReceipt.resx">
       <DependentUpon>frmAddReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees.resx">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEnglishAcademyManage.resx">
       <DependentUpon>frmEnglishAcademyManage.cs</DependentUpon>
