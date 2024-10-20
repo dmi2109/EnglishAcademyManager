@@ -1,38 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\",
+  "WorkspaceRootPath": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\englishacademymanager\\englishacademymanage_gui\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\.vs\\EnglishAcademyManage\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\EnglishAcademyManage\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|c:\\users\\maidi\\onedrive\\desktop\\englishacademymanager\\englishacademymanage_bus\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|solutionrelative:englishacademymanage_bus\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\kyminh\\desktop\\englishacademymanager\\englishacademymanage_gui\\frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\englishacademymanager\\englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\englishacademymanager\\englishacademymanage_gui\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_dal\\entities\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|solutionrelative:englishacademymanage_dal\\entities\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|c:\\users\\maidi\\onedrive\\desktop\\englishacademymanager\\englishacademymanage_gui\\frmteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmaddreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmaddreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_bus\\receiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|solutionrelative:englishacademymanage_bus\\receiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\englishacademymanage_bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588540B9-F84F-4163-878D-1F83079057E9}|EnglishAcademyManage_BUS\\EnglishAcademyManage_BUS.csproj|solutionrelative:englishacademymanage_bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmaddreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmaddreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmaddreceipt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmaddreceipt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5800D85D-F526-4518-BE4C-7D314FAF2B04}|EnglishAcademyManage_DAL\\EnglishAcademyManage_DAL.csproj|solutionrelative:englishacademymanage_dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\frmreceipt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\frmreceipt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\englishacademymanage_gui\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55C22961-2A09-41FD-A736-75A5E59D562C}|EnglishAcademyManage_GUI\\EnglishAcademyManage_GUI.csproj|solutionrelative:englishacademymanage_gui\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,105 +61,161 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmTeachers.cs",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAwwKkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:54:34.826Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_BUS\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\EmployeeService.cs",
-              "RelativeToolTip": "EnglishAcademyManage_BUS\\EmployeeService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:14:45.799Z",
+              "DocumentIndex": 0,
+              "Title": "DocumentLayout.json",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\.vs\\EnglishAcademyManage\\v17\\DocumentLayout.json",
+              "RelativeDocumentMoniker": ".vs\\EnglishAcademyManage\\v17\\DocumentLayout.json",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\.vs\\EnglishAcademyManage\\v17\\DocumentLayout.json",
+              "RelativeToolTip": ".vs\\EnglishAcademyManage\\v17\\DocumentLayout.json",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAAAAUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T15:34:00.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmStudents.cs",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmStudents.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmStudents.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmStudents.cs",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmStudents.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDUBAAAMAAAAAAAAAA==",
+              "Title": "frmReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.cs [Design]",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmReceipt.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T01:35:37.457Z",
+              "WhenOpened": "2024-10-18T15:43:10.909Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmReceipt.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmReceipt.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA2wBoAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:46:07.672Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmEmployees.cs",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmEmployees.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmEmployees.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmEmployees.cs*",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmEmployees.cs*",
-              "ViewState": "AgIAAAwBAAAAAAAAAAAjwB8BAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T01:33:43.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmEmployees.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmEmployees.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmEmployees.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmEmployees.cs [Design]*",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmEmployees.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T01:06:23.919Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmTeachers.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmTeachers.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmTeachers.cs [Design]",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmTeachers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:28:14.349Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmStudents.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmStudents.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmStudents.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmStudents.cs [Design]",
-              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmStudents.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:09:45.157Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\StudentService.cs",
-              "RelativeDocumentMoniker": "EnglishAcademyManage_BUS\\StudentService.cs",
-              "ToolTip": "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\StudentService.cs",
-              "RelativeToolTip": "EnglishAcademyManage_BUS\\StudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAPAAAAAAAAAA==",
+              "Title": "frmAddReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.cs [Design]",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmAddReceipt.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:17:39.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T15:44:11.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Receipt.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_DAL\\Entities\\Receipt.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_DAL\\Entities\\Receipt.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_DAL\\Entities\\Receipt.cs",
+              "RelativeToolTip": "EnglishAcademyManage_DAL\\Entities\\Receipt.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:37:59.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmAddReceipt.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmAddReceipt.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAowIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:44:51.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReceiptService.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\ReceiptService.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_BUS\\ReceiptService.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_BUS\\ReceiptService.cs",
+              "RelativeToolTip": "EnglishAcademyManage_BUS\\ReceiptService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAlwDoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:31:53.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAddReceipt.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.Designer.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmAddReceipt.Designer.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmAddReceipt.Designer.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmAddReceipt.Designer.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAcwPoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:44:58.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\packages.config",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\packages.config",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\packages.config",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-18T15:45:32.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_DAL\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_DAL\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_DAL\\Entities\\Student.cs",
+              "RelativeToolTip": "EnglishAcademyManage_DAL\\Entities\\Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:33:30.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmReceipt.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.Designer.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\frmReceipt.Designer.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\frmReceipt.Designer.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\frmReceipt.Designer.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwDkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:43:12.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Program.cs",
+              "RelativeDocumentMoniker": "EnglishAcademyManage_GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Program.cs",
+              "RelativeToolTip": "EnglishAcademyManage_GUI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:45:34.07Z"
             }
           ]
         }
