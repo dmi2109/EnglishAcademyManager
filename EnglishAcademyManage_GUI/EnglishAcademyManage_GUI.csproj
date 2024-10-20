@@ -76,6 +76,12 @@
     <Compile Include="frmAddReceipt.Designer.cs">
       <DependentUpon>frmAddReceipt.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees.Designer.cs">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEnglishAcademyManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,18 @@
     <Compile Include="frmReceipt.Designer.cs">
       <DependentUpon>frmReceipt.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudents.Designer.cs">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeachers.Designer.cs">
+      <DependentUpon>frmTeachers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,11 +117,20 @@
     <EmbeddedResource Include="frmAddReceipt.resx">
       <DependentUpon>frmAddReceipt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees.resx">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEnglishAcademyManage.resx">
       <DependentUpon>frmEnglishAcademyManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmReceipt.resx">
       <DependentUpon>frmReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudents.resx">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeachers.resx">
+      <DependentUpon>frmTeachers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
