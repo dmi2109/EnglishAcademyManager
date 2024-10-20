@@ -243,3 +243,10 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+/bin/
+/obj/
+*.dll
+*.pdb
+*.exe
+/.vs/
