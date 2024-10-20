@@ -164,6 +164,7 @@ namespace EnglishAcademyManage_GUI
         private void btnClass_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
+            OpenChildForm(new frmClasses());
         }
 
         private void btnCheck_Click(object sender, EventArgs e)

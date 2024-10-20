@@ -78,10 +78,6 @@ namespace EnglishAcademyManage_DAL.Entities
                 .IsUnicode(false);
 
             modelBuilder.Entity<Class>()
-                .Property(e => e.price)
-                .HasPrecision(8, 2);
-
-            modelBuilder.Entity<Class>()
                 .HasMany(e => e.ScheduleDetails)
                 .WithRequired(e => e.Class)
                 .WillCascadeOnDelete(false);

@@ -33,7 +33,7 @@ namespace EnglishAcademyManage_DAL.Entities
 
         public DateTime? end_date { get; set; }
 
-        public decimal? price { get; set; }
+        public bool? Status { get; set; }
 
         public virtual Course Course { get; set; }
 
