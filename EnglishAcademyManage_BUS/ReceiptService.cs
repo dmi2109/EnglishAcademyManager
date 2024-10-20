@@ -39,7 +39,7 @@ namespace EnglishAcademyManage_BUS
         }
 
         // Xóa hóa đơn
-        public void DeleteReceipt(int receiptID)
+        public void DeleteReceipt(string receiptID)
         {
             var receipt = _dbContext.Receipts.Find(receiptID);
             if (receipt == null)
@@ -56,7 +56,7 @@ namespace EnglishAcademyManage_BUS
         }
 
         // Lấy hóa đơn theo ID
-        public Receipt GetReceiptById(int receiptID)
+        public Receipt GetReceiptById(string receiptID)
         {
             var receipt = _dbContext.Receipts.Find(receiptID);
             if (receipt == null)

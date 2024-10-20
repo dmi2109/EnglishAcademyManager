@@ -41,15 +41,10 @@
             this.lblEndDate = new System.Windows.Forms.Label();
             this.lblCourse = new System.Windows.Forms.Label();
             this.cmbCourse = new System.Windows.Forms.ComboBox();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.dgvClass = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.lblTeacher = new System.Windows.Forms.Label();
             this.cmbTeacher = new System.Windows.Forms.ComboBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.dgvClass = new System.Windows.Forms.DataGridView();
             this.clnStudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,6 +52,11 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.err = new System.Windows.Forms.ErrorProvider(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
@@ -242,6 +242,30 @@
             this.cmbCourse.Size = new System.Drawing.Size(327, 30);
             this.cmbCourse.TabIndex = 19;
             // 
+            // lblTeacher
+            // 
+            this.lblTeacher.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTeacher.AutoSize = true;
+            this.lblTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeacher.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeacher.Location = new System.Drawing.Point(529, 102);
+            this.lblTeacher.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTeacher.Name = "lblTeacher";
+            this.lblTeacher.Size = new System.Drawing.Size(145, 37);
+            this.lblTeacher.TabIndex = 20;
+            this.lblTeacher.Text = "Giáo Viên";
+            // 
+            // cmbTeacher
+            // 
+            this.cmbTeacher.FormattingEnabled = true;
+            this.cmbTeacher.Location = new System.Drawing.Point(681, 105);
+            this.cmbTeacher.Name = "cmbTeacher";
+            this.cmbTeacher.Size = new System.Drawing.Size(327, 30);
+            this.cmbTeacher.TabIndex = 21;
+            this.cmbTeacher.Format += new System.Windows.Forms.ListControlConvertEventHandler(this.cmbTeacher_Format);
+            // 
             // btnSearch
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -279,6 +303,55 @@
             this.dgvClass.Size = new System.Drawing.Size(1005, 332);
             this.dgvClass.TabIndex = 55;
             this.dgvClass.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClass_CellContentClick);
+            // 
+            // clnStudentID
+            // 
+            this.clnStudentID.FillWeight = 50F;
+            this.clnStudentID.HeaderText = "Mã Lớp Học";
+            this.clnStudentID.MinimumWidth = 9;
+            this.clnStudentID.Name = "clnStudentID";
+            // 
+            // Column2
+            // 
+            this.Column2.FillWeight = 50F;
+            this.Column2.HeaderText = "Tên Lớp";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column1
+            // 
+            this.Column1.FillWeight = 50F;
+            this.Column1.HeaderText = "Khóa Học";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column3
+            // 
+            this.Column3.FillWeight = 50F;
+            this.Column3.HeaderText = "Ngày Bắt Đầu";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.FillWeight = 50F;
+            this.Column4.HeaderText = "Ngày Kết Thúc";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            // 
+            // Column7
+            // 
+            this.Column7.FillWeight = 50F;
+            this.Column7.HeaderText = "Giáo Viên";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            // 
+            // Column5
+            // 
+            this.Column5.FillWeight = 40F;
+            this.Column5.HeaderText = "Trạng Thái";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
             // 
             // btnAdd
             // 
@@ -332,79 +405,6 @@
             // err
             // 
             this.err.ContainerControl = this;
-            // 
-            // lblTeacher
-            // 
-            this.lblTeacher.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTeacher.AutoSize = true;
-            this.lblTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeacher.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeacher.Location = new System.Drawing.Point(529, 102);
-            this.lblTeacher.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTeacher.Name = "lblTeacher";
-            this.lblTeacher.Size = new System.Drawing.Size(145, 37);
-            this.lblTeacher.TabIndex = 20;
-            this.lblTeacher.Text = "Giáo Viên";
-            // 
-            // cmbTeacher
-            // 
-            this.cmbTeacher.FormattingEnabled = true;
-            this.cmbTeacher.Location = new System.Drawing.Point(681, 105);
-            this.cmbTeacher.Name = "cmbTeacher";
-            this.cmbTeacher.Size = new System.Drawing.Size(327, 30);
-            this.cmbTeacher.TabIndex = 21;
-            this.cmbTeacher.Format += new System.Windows.Forms.ListControlConvertEventHandler(this.cmbTeacher_Format);
-            // 
-            // clnStudentID
-            // 
-            this.clnStudentID.FillWeight = 50F;
-            this.clnStudentID.HeaderText = "Mã Lớp Học";
-            this.clnStudentID.MinimumWidth = 9;
-            this.clnStudentID.Name = "clnStudentID";
-            // 
-            // Column2
-            // 
-            this.Column2.FillWeight = 50F;
-            this.Column2.HeaderText = "Tên Lớp";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 50F;
-            this.Column1.HeaderText = "Khóa Học";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // Column3
-            // 
-            this.Column3.FillWeight = 50F;
-            this.Column3.HeaderText = "Ngày Bắt Đầu";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.FillWeight = 50F;
-            this.Column4.HeaderText = "Ngày Kết Thúc";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            // 
-            // Column7
-            // 
-            this.Column7.FillWeight = 50F;
-            this.Column7.HeaderText = "Giáo Viên";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            // 
-            // Column5
-            // 
-            this.Column5.FillWeight = 40F;
-            this.Column5.HeaderText = "Trạng Thái";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
             // 
             // frmClasses
             // 
