@@ -24,7 +24,7 @@ namespace EnglishAcademyManage_BUS
                     return "Mã giáo viên đã tồn tại.";
                 }
 
-                teacher.Status = true;
+                //teacher.Status = true;
                 context.Teachers.Add(teacher);
                 context.SaveChanges();
                 return "Thêm giáo viên thành công!";
@@ -70,7 +70,7 @@ namespace EnglishAcademyManage_BUS
                 {
                     return "Sinh viên không tồn tại.";
                 }
-                existingTeacher.Status = false;
+                //existingTeacher.Status = false;
                 context.SaveChanges();
                 return "Đã đánh dấu giáo viên là đã xóa!";
             }

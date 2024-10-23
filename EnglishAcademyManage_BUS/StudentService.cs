@@ -10,6 +10,11 @@ namespace EnglishAcademyManage_BUS
     public class StudentService
     {
         private readonly EnglishAcademyDbContext context = new EnglishAcademyDbContext();
+
+        public StudentService()
+        {
+            context = new EnglishAcademyDbContext();
+        }
         public List<Student> GetAll()
         {
             return context.Students.ToList();
@@ -22,7 +27,7 @@ namespace EnglishAcademyManage_BUS
                 {
                     return "Mã học viên đã tồn tại.";
                 }
-                student.Status = true;
+                //student.Status = true;
                 context.Students.Add(student);
                 context.SaveChanges();
                 return "Thêm học viên thành công!";
@@ -70,7 +75,7 @@ namespace EnglishAcademyManage_BUS
                     return "Sinh viên không tồn tại.";
                 }
 
-                existingStudent.Status = false; // Đánh dấu học viên đã bị xóa
+                //existingStudent.Status = false; // Đánh dấu học viên đã bị xóa
                 context.SaveChanges();
                 return "Đã đánh dấu học viên là đã xóa!";
             }
@@ -79,6 +84,40 @@ namespace EnglishAcademyManage_BUS
                 return $"Lỗi khi xóa sinh viên: {ex.Message}";
             }
         }
-  
+
+        public List<StudentRegistrationInfo> GetStudentRegistrationInfo(string classId)
+        {
+            var studentInfo = from s in context.Students
+                              join r in context.Registrations on s.student_id equals r.student_id into registrations
+                              from reg in registrations.DefaultIfEmpty()
+                              join c in context.Courses on reg.course_id equals c.course_id into courses
+                              from course in courses.DefaultIfEmpty()
+                              join cls in context.Classes on course.course_id equals cls.course_id
+                              where cls.class_id == classId
+                              select new StudentRegistrationInfo
+                              {
+                                  StudentId = s.student_id,
+                                  LastName = s.last_name,
+                                  FirstName = s.first_name
+                              };
+
+            return studentInfo.ToList();
+        }
+
+
+
+
+
+        public class StudentRegistrationInfo
+        {
+            public string StudentId { get; set; }
+            public string LastName { get; set; }
+            public string FirstName { get; set; }
+            public DateTime? RegistrationDate { get; set; }
+            public string CourseName { get; set; }
+            public string Status { get; set; }
+        }
+
+
     }
 }

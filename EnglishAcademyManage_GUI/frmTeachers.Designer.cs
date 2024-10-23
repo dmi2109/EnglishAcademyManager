@@ -81,15 +81,15 @@
             this.tableLayoutPanel1.Controls.Add(this.lblEmail, 2, 3);
             this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(1, 12);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(1, 15);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1078, 176);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1213, 220);
             this.tableLayoutPanel1.TabIndex = 40;
             // 
             // lblTeacherInfor
@@ -103,7 +103,7 @@
             this.lblTeacherInfor.Location = new System.Drawing.Point(4, 0);
             this.lblTeacherInfor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTeacherInfor.Name = "lblTeacherInfor";
-            this.lblTeacherInfor.Size = new System.Drawing.Size(209, 44);
+            this.lblTeacherInfor.Size = new System.Drawing.Size(236, 55);
             this.lblTeacherInfor.TabIndex = 13;
             this.lblTeacherInfor.Text = "Thông Tin Giáo Viên";
             // 
@@ -115,10 +115,10 @@
             this.lblTeacherID.AutoSize = true;
             this.lblTeacherID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeacherID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeacherID.Location = new System.Drawing.Point(4, 44);
+            this.lblTeacherID.Location = new System.Drawing.Point(4, 55);
             this.lblTeacherID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTeacherID.Name = "lblTeacherID";
-            this.lblTeacherID.Size = new System.Drawing.Size(209, 44);
+            this.lblTeacherID.Size = new System.Drawing.Size(236, 55);
             this.lblTeacherID.TabIndex = 8;
             this.lblTeacherID.Text = "Mã Học Viên";
             // 
@@ -129,10 +129,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtLastName.Location = new System.Drawing.Point(221, 92);
-            this.txtLastName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtLastName.Location = new System.Drawing.Point(248, 115);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(349, 28);
+            this.txtLastName.Size = new System.Drawing.Size(394, 32);
             this.txtLastName.TabIndex = 1;
             // 
             // txtFirstName
@@ -141,10 +141,10 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtFirstName.Location = new System.Drawing.Point(653, 92);
-            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFirstName.Location = new System.Drawing.Point(734, 115);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(396, 28);
+            this.txtFirstName.Size = new System.Drawing.Size(445, 32);
             this.txtFirstName.TabIndex = 2;
             // 
             // txtTeacherID
@@ -154,10 +154,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTeacherID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTeacherID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtTeacherID.Location = new System.Drawing.Point(221, 48);
-            this.txtTeacherID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTeacherID.Location = new System.Drawing.Point(248, 60);
+            this.txtTeacherID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTeacherID.Name = "txtTeacherID";
-            this.txtTeacherID.Size = new System.Drawing.Size(349, 28);
+            this.txtTeacherID.Size = new System.Drawing.Size(394, 32);
             this.txtTeacherID.TabIndex = 0;
             // 
             // lblLastName
@@ -168,10 +168,10 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLastName.Location = new System.Drawing.Point(4, 88);
+            this.lblLastName.Location = new System.Drawing.Point(4, 110);
             this.lblLastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(209, 44);
+            this.lblLastName.Size = new System.Drawing.Size(236, 55);
             this.lblLastName.TabIndex = 6;
             this.lblLastName.Text = "Họ và Tên Đệm";
             // 
@@ -183,10 +183,10 @@
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFirstName.Location = new System.Drawing.Point(578, 88);
+            this.lblFirstName.Location = new System.Drawing.Point(650, 110);
             this.lblFirstName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(67, 44);
+            this.lblFirstName.Size = new System.Drawing.Size(76, 55);
             this.lblFirstName.TabIndex = 0;
             this.lblFirstName.Text = "Tên";
             // 
@@ -198,10 +198,10 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPhone.Location = new System.Drawing.Point(4, 132);
+            this.lblPhone.Location = new System.Drawing.Point(4, 165);
             this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(209, 44);
+            this.lblPhone.Size = new System.Drawing.Size(236, 55);
             this.lblPhone.TabIndex = 0;
             this.lblPhone.Text = "Số Điện Thoại";
             // 
@@ -212,10 +212,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtPhone.Location = new System.Drawing.Point(221, 136);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPhone.Location = new System.Drawing.Point(248, 170);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(349, 28);
+            this.txtPhone.Size = new System.Drawing.Size(394, 32);
             this.txtPhone.TabIndex = 3;
             // 
             // txtEmail
@@ -224,10 +224,10 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEmail.Location = new System.Drawing.Point(653, 136);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Location = new System.Drawing.Point(734, 170);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(396, 28);
+            this.txtEmail.Size = new System.Drawing.Size(445, 32);
             this.txtEmail.TabIndex = 4;
             // 
             // lblEmail
@@ -238,10 +238,10 @@
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEmail.Location = new System.Drawing.Point(578, 132);
+            this.lblEmail.Location = new System.Drawing.Point(650, 165);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(67, 44);
+            this.lblEmail.Size = new System.Drawing.Size(76, 55);
             this.lblEmail.TabIndex = 10;
             this.lblEmail.Text = "Email";
             // 
@@ -249,9 +249,10 @@
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(951, 204);
+            this.btnSearch.Location = new System.Drawing.Point(1070, 255);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(98, 30);
+            this.btnSearch.Size = new System.Drawing.Size(110, 38);
             this.btnSearch.TabIndex = 48;
             this.btnSearch.Text = "Tìm kiếm";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -274,11 +275,12 @@
             this.Column1,
             this.Column4});
             this.dgvTeacher.GridColor = System.Drawing.Color.AliceBlue;
-            this.dgvTeacher.Location = new System.Drawing.Point(44, 252);
+            this.dgvTeacher.Location = new System.Drawing.Point(50, 315);
+            this.dgvTeacher.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTeacher.Name = "dgvTeacher";
             this.dgvTeacher.RowHeadersWidth = 51;
             this.dgvTeacher.RowTemplate.Height = 24;
-            this.dgvTeacher.Size = new System.Drawing.Size(1005, 332);
+            this.dgvTeacher.Size = new System.Drawing.Size(1131, 415);
             this.dgvTeacher.TabIndex = 49;
             this.dgvTeacher.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeacher_CellContentClick);
             // 
@@ -327,9 +329,10 @@
             // 
             this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(720, 600);
+            this.btnAdd.Location = new System.Drawing.Point(810, 750);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(90, 31);
+            this.btnAdd.Size = new System.Drawing.Size(101, 39);
             this.btnAdd.TabIndex = 44;
             this.btnAdd.TabStop = false;
             this.btnAdd.Text = "Thêm ";
@@ -341,9 +344,10 @@
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtSearch.Location = new System.Drawing.Point(730, 206);
+            this.txtSearch.Location = new System.Drawing.Point(821, 258);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(206, 28);
+            this.txtSearch.Size = new System.Drawing.Size(231, 32);
             this.txtSearch.TabIndex = 47;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
@@ -351,9 +355,10 @@
             // 
             this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(861, 600);
+            this.btnDelete.Location = new System.Drawing.Point(969, 750);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 31);
+            this.btnDelete.Size = new System.Drawing.Size(84, 39);
             this.btnDelete.TabIndex = 45;
             this.btnDelete.TabStop = false;
             this.btnDelete.Text = "Xóa";
@@ -364,9 +369,10 @@
             // 
             this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(971, 600);
+            this.btnUpdate.Location = new System.Drawing.Point(1092, 750);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(78, 30);
+            this.btnUpdate.Size = new System.Drawing.Size(88, 38);
             this.btnUpdate.TabIndex = 46;
             this.btnUpdate.Text = "Sửa";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -378,10 +384,10 @@
             // 
             // frmTeachers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(1078, 651);
+            this.ClientSize = new System.Drawing.Size(1213, 814);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.dgvTeacher);
             this.Controls.Add(this.btnAdd);
@@ -389,6 +395,7 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmTeachers";
             this.Text = "frmTeachers";
             this.Load += new System.EventHandler(this.frmTeachers_Load);
