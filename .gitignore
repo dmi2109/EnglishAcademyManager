@@ -250,3 +250,8 @@ paket-files/
 *.pdb
 *.exe
 /.vs/
+
+
+# Ignore build directories
+**/bin/
+**/obj/
