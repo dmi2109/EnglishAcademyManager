@@ -24,14 +24,14 @@ namespace EnglishAcademyManage_GUI
         public frmReceipt()
         {
             InitializeComponent();
-            _receiptService = new ReceiptService(new EnglishAcademyDbContext()); 
+            _receiptService = new ReceiptService(new EnglishAcademyDbContext());
         }
 
         private void frmReceipt_Load(object sender, EventArgs e)
         {
             SetupDataGridViewColumns();
             LoadReceipts();
-            
+
         }
         private void SetupDataGridViewColumns()
         {
@@ -67,30 +67,34 @@ namespace EnglishAcademyManage_GUI
             {
                 Name = "PaymentStatus",
                 HeaderText = "Payment Status",
-                DataPropertyName = "PaymentStatus",  // Liên kết với trường dữ liệu
+                DataPropertyName = "payment_status",  // Liên kết với trường dữ liệu
             });
         }
         private void LoadReceipts()
         {
-            var receipts = _receiptService.GetAllReceipts()
-                .Select(r => new
-                {
-                    r.receipt_id,
-                    StudentName = r.Student.first_name + " " + r.Student.last_name,
-                    CourseNames = r.Student.Registrations
-                        .Select(reg => reg.Course.course_name)
-                        .FirstOrDefault() ?? "Not yet registered",
-                    r.payment_date,
-                    r.amount,
-                    PaymentStatus = r.amount.HasValue ? "Paid" : "Unpaid"
-                })
-                .ToList();
+                    var receipts = _receiptService.GetAllReceipts()
+            .Select(r => new
+            {
+                r.receipt_id,
+                StudentName = r.Student.first_name + " " + r.Student.last_name,
+                CourseNames = r.Student.Registrations
+                    .Select(reg => reg.Course.course_name)
+                    .FirstOrDefault() ?? "Not yet registered",
+                r.payment_date,
+                r.amount,
+                r.payment_status
+            })
+            .ToList();
 
-            // Không cần xóa hàng trực tiếp
+
+            // Đảm bảo DataGridView không tự động tạo cột
             dgvReceipts.AutoGenerateColumns = false;
-            dgvReceipts.DataSource = null; // Xóa liên kết hiện tại
+
+            // Cập nhật DataSource
+            dgvReceipts.DataSource = null; // Xóa liên kết hiện tại nếu có
             dgvReceipts.DataSource = receipts; // Gán dữ liệu mới
         }
+
 
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -98,9 +102,10 @@ namespace EnglishAcademyManage_GUI
             string searchValue = txtSearch.Text;
             string paymentStatusFilter = cmbPaymentStatusFilter.SelectedItem?.ToString();
 
+            // Lấy danh sách biên lai từ dịch vụ
             var receiptsQuery = _receiptService.GetAllReceipts().AsQueryable();
 
-            // Lọc theo tên học sinh hoặc mã hóa đơn
+            // Lọc theo giá trị tìm kiếm (tên học sinh hoặc mã biên lai)
             if (!string.IsNullOrEmpty(searchValue))
             {
                 receiptsQuery = receiptsQuery.Where(r =>
@@ -113,22 +118,25 @@ namespace EnglishAcademyManage_GUI
             {
                 receiptsQuery = receiptsQuery.Where(r =>
                     paymentStatusFilter == "All" ||
-                    (paymentStatusFilter == "Paid" ? r.amount.HasValue : !r.amount.HasValue));
+                    r.payment_status == paymentStatusFilter);
             }
 
+            // Chuyển đổi dữ liệu thành danh sách hiển thị
             var receipts = receiptsQuery.Select(r => new
             {
                 r.receipt_id,
                 StudentName = r.Student.first_name + " " + r.Student.last_name,
                 r.amount,
                 r.payment_date,
-                PaymentStatus = r.amount.HasValue ? "Paid" : "Unpaid"
+                r.payment_status
             }).ToList();
 
+            // Cập nhật dữ liệu cho DataGridView
             dgvReceipts.AutoGenerateColumns = false;
-            dgvReceipts.DataSource = null;  // Xóa liên kết hiện tại để đảm bảo không có xung đột
+            dgvReceipts.DataSource = null;
             dgvReceipts.DataSource = receipts;
         }
+
 
         private void btnAddReceipt_Click(object sender, EventArgs e)
         {
@@ -145,11 +153,11 @@ namespace EnglishAcademyManage_GUI
 
                 var receipt = _receiptService.GetReceiptById(receiptId);
 
-                if (receipt.amount.HasValue)
+                if (receipt.payment_status == "Completed")
                 {
-                    receipt.amount = null;  
+                    receipt.payment_status = "Pending";  
                 }
-                else
+                else if (receipt.payment_status == "Pending")
                 {
                     MessageBox.Show("Receipt is already unpaid.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
@@ -166,17 +174,15 @@ namespace EnglishAcademyManage_GUI
         }
 
 
+
         private void btnDeleteReceipt_Click(object sender, EventArgs e)
         {
             if (dgvReceipts.SelectedRows.Count > 0)
             {
-                // Get the receipt_id as a string (since your receipt_id is of type string)
                 string receiptId = dgvReceipts.SelectedRows[0].Cells["receipt_id"].Value.ToString();
 
-                // Assuming _receiptService.DeleteReceipt accepts a string for receipt_id
                 _receiptService.DeleteReceipt(receiptId);
 
-                // Reload the receipts to reflect the deletion
                 LoadReceipts();
             }
             else
@@ -186,7 +192,7 @@ namespace EnglishAcademyManage_GUI
         }
 
         private PrintDocument printDocument = new PrintDocument();
-        private string receiptContent; // Chuỗi chứa nội dung hóa đơn để in
+        private string receiptContent; 
 
         private void btnPrintReceipt_Click(object sender, EventArgs e)
         {
@@ -204,7 +210,7 @@ namespace EnglishAcademyManage_GUI
                                  $"---------------------------------------\n" +
                                  $"Receipt ID: {receipt.receipt_id}\n" +
                                  $"Date: {DateTime.Now.ToShortDateString()}\n" +
-                                 $"Employee: {employeeName}\n" +  // Hiển thị tên nhân viên
+                                 $"Employee: {employeeName}\n" +  
                                  $"Student ID: {receipt.student_id}\n" +
                                  $"---------------------------------------\n" +
                                  $"Amount: {receipt.amount} USD\n" +
@@ -214,12 +220,12 @@ namespace EnglishAcademyManage_GUI
                                  $"---------------------------------------\n" +
                                  $"Employee Signature: _______________\n";
 
-                // Hủy đăng ký sự kiện trước đó (nếu có) để tránh in đè
+
                 printDocument1.PrintPage -= PrintDocument_PrintPage;
 
                 printDocument1.PrintPage += PrintDocument_PrintPage;
 
-                // Hiển thị hộp thoại xem trước trước khi in
+
                 PrintPreviewDialog previewDialog = new PrintPreviewDialog
                 {
                     Document = printDocument1
@@ -234,13 +240,12 @@ namespace EnglishAcademyManage_GUI
 
         private void PrintDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.Clear(Color.White); // Sử dụng màu trắng cho nền
+            e.Graphics.Clear(Color.White); 
             e.Graphics.DrawString(receiptContent, new Font("Arial", 12), Brushes.Black, 50, 50);
         }
 
         private string CreateReceiptContent(Receipt receipt)
         {
-            // Tạo nội dung hóa đơn từ đối tượng Receipt
             return $"" +
                    $"English Academy Receipt\n" +
                    $"---------------------------------------\n" +
@@ -255,21 +260,17 @@ namespace EnglishAcademyManage_GUI
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
-            // Tạo font và định dạng cho hóa đơn
             Font titleFont = new Font("Arial", 16, FontStyle.Bold);
             Font contentFont = new Font("Arial", 12);
-            float yPos = 50; // Tọa độ y để bắt đầu in
+            float yPos = 50; 
             float leftMargin = e.MarginBounds.Left;
 
-            // In tiêu đề hóa đơn
             e.Graphics.DrawString("English Academy Receipt", titleFont, Brushes.Black, leftMargin, yPos);
             yPos += titleFont.GetHeight(e.Graphics) + 10;
 
-            // In dòng kẻ ngăn cách
             e.Graphics.DrawLine(Pens.Black, leftMargin, yPos, e.MarginBounds.Right, yPos);
             yPos += 20;
 
-            // In các chi tiết hóa đơn
             e.Graphics.DrawString($"Receipt ID: {dgvReceipts.SelectedRows[0].Cells["receipt_id"].Value}", contentFont, Brushes.Black, leftMargin, yPos);
             yPos += contentFont.GetHeight(e.Graphics) + 5;
             e.Graphics.DrawString($"Date: {DateTime.Now.ToShortDateString()}", contentFont, Brushes.Black, leftMargin, yPos);
@@ -279,30 +280,25 @@ namespace EnglishAcademyManage_GUI
             e.Graphics.DrawString($"Student ID: {dgvReceipts.SelectedRows[0].Cells["student_id"].Value}", contentFont, Brushes.Black, leftMargin, yPos);
             yPos += contentFont.GetHeight(e.Graphics) + 20;
 
-            // In dòng kẻ ngăn cách
             e.Graphics.DrawLine(Pens.Black, leftMargin, yPos, e.MarginBounds.Right, yPos);
             yPos += 20;
 
-            // In thông tin thanh toán
+
             e.Graphics.DrawString($"Amount: {dgvReceipts.SelectedRows[0].Cells["amount"].Value} USD", contentFont, Brushes.Black, leftMargin, yPos);
             yPos += contentFont.GetHeight(e.Graphics) + 5;
             e.Graphics.DrawString($"Payment Status: {(dgvReceipts.SelectedRows[0].Cells["amount"].Value != null ? "Paid" : "Unpaid")}", contentFont, Brushes.Black, leftMargin, yPos);
             yPos += contentFont.GetHeight(e.Graphics) + 20;
 
-            // In dòng kẻ ngăn cách
             e.Graphics.DrawLine(Pens.Black, leftMargin, yPos, e.MarginBounds.Right, yPos);
             yPos += 20;
 
-            // In mô tả
             e.Graphics.DrawString($"Description: {dgvReceipts.SelectedRows[0].Cells["description"].Value}", contentFont, Brushes.Black, leftMargin, yPos);
             yPos += contentFont.GetHeight(e.Graphics) + 20;
 
-            // In chữ ký
             e.Graphics.DrawLine(Pens.Black, leftMargin, yPos, leftMargin + 200, yPos);
             yPos += 5;
             e.Graphics.DrawString("Employee Signature", contentFont, Brushes.Black, leftMargin, yPos);
         }
-
     }
 }
 

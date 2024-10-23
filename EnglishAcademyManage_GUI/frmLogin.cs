@@ -8,14 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EnglishAcademyManage_DAL.Entities; // Add this line for your DbContext
+using EnglishAcademyManage_DAL.Entities; 
 
 
 namespace EnglishAcademyManage_GUI
 {
-    public partial class Login : Form
+    public partial class frmLogin : Form
     {
-        public Login()
+        public frmLogin()
         {
             InitializeComponent();
             InitializeCustomComponents();
@@ -23,55 +23,49 @@ namespace EnglishAcademyManage_GUI
         private void InitializeCustomComponents()
         {
             this.Text = "Login";
-            this.Size = new Size(600, 400); // Form size
-            this.StartPosition = FormStartPosition.CenterScreen; // Center the form on the screen
-            this.MaximizeBox = false; // Hide maximize button
-            this.MinimizeBox = false; // Hide minimize button
-            this.FormBorderStyle = FormBorderStyle.FixedDialog; // Fixed border style
+            this.Size = new Size(600, 400); 
+            this.StartPosition = FormStartPosition.CenterScreen; 
+            this.MaximizeBox = false; 
+            this.MinimizeBox = false; 
+            this.FormBorderStyle = FormBorderStyle.FixedDialog; 
 
-            // Add Panel to contain the PictureBox for better layout
+            
             Panel logoPanel = new Panel
             {
-                Size = new Size(250, 250), // Size of the panel
-                Location = new Point(20, 20), // Position of the panel
-                BackColor = Color.LightGray, // Background color for the panel
-                BorderStyle = BorderStyle.FixedSingle // Optional border around the panel
+                Size = new Size(250, 250), 
+                Location = new Point(20, 20), 
+                BackColor = Color.LightGray, 
+                BorderStyle = BorderStyle.FixedSingle
             };
 
-            // Add PictureBox to display image
             PictureBox logoPictureBox = new PictureBox
             {
-                Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
-                SizeMode = PictureBoxSizeMode.Zoom, // Maintain aspect ratio
-                Size = new Size(250, 250), // Size to match the panel
-                Location = new Point(0, 0) // Position within the panel
+                Image = Image.FromFile("C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), 
+                SizeMode = PictureBoxSizeMode.Zoom, 
+                Size = new Size(250, 250), 
+                Location = new Point(0, 0)
             };
 
-            // Add PictureBox to the panel
             logoPanel.Controls.Add(logoPictureBox);
 
-            // Add the panel to the form
             this.Controls.Add(logoPanel);
 
-
-
-            // Title
             SiticoneButton titleButton = new SiticoneButton
             {
                 Text = "Login",
                 Font = new Font("Segoe UI", 20, FontStyle.Bold),
-                Location = new Point(300, 20), // Centered
-                Size = new Size(200, 40), // Increased size for better appearance
-                BorderRadius = 10, // Rounded corners
+                Location = new Point(300, 20), 
+                Size = new Size(200, 40), 
+                BorderRadius = 10, 
                 FillColor = Color.Transparent,
                 ForeColor = Color.Black,
-                HoverState = { FillColor = Color.Transparent } // Ensure background color when hover
+                HoverState = { FillColor = Color.Transparent } 
             };
 
             titleButton.Click += (s, e) => { /* No action needed on click */ };
             this.Controls.Add(titleButton);
 
-            // Username
+            
             SiticoneTextBox usernameTextBox = new SiticoneTextBox
             {
                 PlaceholderText = "Username",
@@ -84,10 +78,10 @@ namespace EnglishAcademyManage_GUI
             };
             this.Controls.Add(usernameTextBox);
 
-            string eyeOpenIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
-            string eyeClosedIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
+            string eyeOpenIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; 
+            string eyeClosedIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; 
 
-            // Password
+            
             SiticoneTextBox passwordTextBox = new SiticoneTextBox
             {
                 PlaceholderText = "Password",
@@ -98,25 +92,22 @@ namespace EnglishAcademyManage_GUI
                 PlaceholderForeColor = Color.Gray,
                 ForeColor = Color.Black,
                 UseSystemPasswordChar = true,
-                IconRight = Image.FromFile(eyeClosedIconPath), // Set initial icon to eye closed
+                IconRight = Image.FromFile(eyeClosedIconPath), 
                 IconRightSize = new Size(20, 20)
             };
 
-            // Event handler to toggle password visibility
             bool isPasswordVisible = false;
             passwordTextBox.IconRightClick += (s, e) =>
             {
                 isPasswordVisible = !isPasswordVisible;
                 passwordTextBox.UseSystemPasswordChar = !isPasswordVisible;
 
-                // Toggle the icon based on visibility
                 passwordTextBox.IconRight = isPasswordVisible
-                    ? Image.FromFile(eyeOpenIconPath) // Show password icon
-                    : Image.FromFile(eyeClosedIconPath); // Hide password icon
+                    ? Image.FromFile(eyeOpenIconPath) 
+                    : Image.FromFile(eyeClosedIconPath); 
             };
             this.Controls.Add(passwordTextBox);
 
-            // ComboBox to select user role
             SiticoneComboBox roleComboBox = new SiticoneComboBox
             {
                 Size = new Size(250, 40),
@@ -125,20 +116,18 @@ namespace EnglishAcademyManage_GUI
                 ForeColor = Color.Black
             };
             roleComboBox.Items.AddRange(new string[] { "Administrator", "Employee", "Teacher", "Student" });
-            roleComboBox.SelectedIndex = 0; // Default select "Administrator"
+            roleComboBox.SelectedIndex = 0;
             this.Controls.Add(roleComboBox);
 
-            // Remember password checkbox
             SiticoneCheckBox rememberCheckBox = new SiticoneCheckBox
             {
                 Text = "Remember password",
                 Location = new Point(300, 230),
                 AutoSize = true,
-                ForeColor = Color.Black // Text color
+                ForeColor = Color.Black 
             };
             this.Controls.Add(rememberCheckBox);
 
-            // Login button
             SiticoneButton loginButton = new SiticoneButton
             {
                 Text = "Login",
@@ -147,7 +136,7 @@ namespace EnglishAcademyManage_GUI
                 BorderRadius = 10,
                 FillColor = Color.Blue,
                 ForeColor = Color.White,
-                HoverState = { FillColor = Color.DarkBlue } // Change background color on hover
+                HoverState = { FillColor = Color.DarkBlue } 
             };
             loginButton.Click += (s, e) =>
             {
@@ -167,8 +156,8 @@ namespace EnglishAcademyManage_GUI
                     if (account != null)
                     {
                         MessageBox.Show($"Login successful with role: {selectedRole}");
-                        //frmEnglishAcademyManage mainForm = new frmEnglishAcademyManage(selectedRole);
-                        //mainForm.Show();
+                        frmEnglishAcademyManage mainForm = new frmEnglishAcademyManage(selectedRole);
+                        mainForm.Show();
                         this.Hide();
                     }
                     else
@@ -179,7 +168,6 @@ namespace EnglishAcademyManage_GUI
             };
             this.Controls.Add(loginButton);
 
-            // Forgot password button
             SiticoneButton forgotPasswordButton = new SiticoneButton
             {
                 Text = "Forgot password?",
@@ -188,16 +176,14 @@ namespace EnglishAcademyManage_GUI
                 BorderRadius = 10,
                 FillColor = Color.Transparent,
                 ForeColor = Color.Blue,
-                HoverState = { FillColor = Color.LightBlue } // Change background color on hover
+                HoverState = { FillColor = Color.LightBlue } 
             };
             forgotPasswordButton.Click += (s, e) =>
             {
-                // Handle forgot password event
                 MessageBox.Show("Please contact the administrator to retrieve your password.", "Forgot Password", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
             this.Controls.Add(forgotPasswordButton);
 
-            // Exit button
             SiticoneButton exitButton = new SiticoneButton
             {
                 Text = "Exit",
@@ -206,7 +192,7 @@ namespace EnglishAcademyManage_GUI
                 BorderRadius = 10,
                 FillColor = Color.BlueViolet,
                 ForeColor = Color.White,
-                HoverState = { FillColor = Color.DarkRed } // Change background color on hover
+                HoverState = { FillColor = Color.DarkRed } 
             };
             exitButton.Click += (s, e) =>
             {
@@ -214,7 +200,7 @@ namespace EnglishAcademyManage_GUI
 
                 if (result == DialogResult.OK)
                 {
-                    this.Close(); // Close the application
+                    this.Close(); 
                 }
             };
             this.Controls.Add(exitButton);

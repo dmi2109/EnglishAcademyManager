@@ -68,8 +68,9 @@
             this.panelMenu.Controls.Add(this.panel1);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(230, 697);
+            this.panelMenu.Size = new System.Drawing.Size(259, 871);
             this.panelMenu.TabIndex = 1;
             // 
             // iconEmployee
@@ -82,9 +83,10 @@
             this.iconEmployee.IconColor = System.Drawing.Color.Black;
             this.iconEmployee.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconEmployee.IconSize = 30;
-            this.iconEmployee.Location = new System.Drawing.Point(0, 502);
+            this.iconEmployee.Location = new System.Drawing.Point(0, 627);
+            this.iconEmployee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconEmployee.Name = "iconEmployee";
-            this.iconEmployee.Size = new System.Drawing.Size(230, 60);
+            this.iconEmployee.Size = new System.Drawing.Size(259, 75);
             this.iconEmployee.TabIndex = 10;
             this.iconEmployee.Tag = "  Nhân viên";
             this.iconEmployee.Text = "  Nhân viên";
@@ -103,9 +105,10 @@
             this.btnReceipt.IconColor = System.Drawing.Color.Black;
             this.btnReceipt.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReceipt.IconSize = 30;
-            this.btnReceipt.Location = new System.Drawing.Point(0, 442);
+            this.btnReceipt.Location = new System.Drawing.Point(0, 552);
+            this.btnReceipt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnReceipt.Name = "btnReceipt";
-            this.btnReceipt.Size = new System.Drawing.Size(230, 60);
+            this.btnReceipt.Size = new System.Drawing.Size(259, 75);
             this.btnReceipt.TabIndex = 9;
             this.btnReceipt.Tag = "  Học phí     ";
             this.btnReceipt.Text = "  Học phí     ";
@@ -124,9 +127,10 @@
             this.btnCheck.IconColor = System.Drawing.Color.Black;
             this.btnCheck.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCheck.IconSize = 30;
-            this.btnCheck.Location = new System.Drawing.Point(0, 382);
+            this.btnCheck.Location = new System.Drawing.Point(0, 477);
+            this.btnCheck.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(230, 60);
+            this.btnCheck.Size = new System.Drawing.Size(259, 75);
             this.btnCheck.TabIndex = 8;
             this.btnCheck.Tag = "  Điểm danh";
             this.btnCheck.Text = "  Điểm danh";
@@ -145,9 +149,10 @@
             this.btnSignOut.IconColor = System.Drawing.Color.Black;
             this.btnSignOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSignOut.IconSize = 30;
-            this.btnSignOut.Location = new System.Drawing.Point(0, 637);
+            this.btnSignOut.Location = new System.Drawing.Point(0, 796);
+            this.btnSignOut.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSignOut.Name = "btnSignOut";
-            this.btnSignOut.Size = new System.Drawing.Size(230, 60);
+            this.btnSignOut.Size = new System.Drawing.Size(259, 75);
             this.btnSignOut.TabIndex = 7;
             this.btnSignOut.Tag = "  Đăng xuất";
             this.btnSignOut.Text = "  Đăng xuất";
@@ -165,9 +170,10 @@
             this.btnClass.IconColor = System.Drawing.Color.Black;
             this.btnClass.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClass.IconSize = 30;
-            this.btnClass.Location = new System.Drawing.Point(0, 322);
+            this.btnClass.Location = new System.Drawing.Point(0, 402);
+            this.btnClass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClass.Name = "btnClass";
-            this.btnClass.Size = new System.Drawing.Size(230, 60);
+            this.btnClass.Size = new System.Drawing.Size(259, 75);
             this.btnClass.TabIndex = 6;
             this.btnClass.Tag = "  Lớp học   ";
             this.btnClass.Text = "  Lớp học   ";
@@ -186,9 +192,10 @@
             this.btnTeacher.IconColor = System.Drawing.Color.Black;
             this.btnTeacher.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTeacher.IconSize = 30;
-            this.btnTeacher.Location = new System.Drawing.Point(0, 262);
+            this.btnTeacher.Location = new System.Drawing.Point(0, 327);
+            this.btnTeacher.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTeacher.Name = "btnTeacher";
-            this.btnTeacher.Size = new System.Drawing.Size(230, 60);
+            this.btnTeacher.Size = new System.Drawing.Size(259, 75);
             this.btnTeacher.TabIndex = 5;
             this.btnTeacher.Tag = "  Giáo viên";
             this.btnTeacher.Text = "  Giáo viên";
@@ -207,9 +214,10 @@
             this.btnCourse.IconColor = System.Drawing.Color.Black;
             this.btnCourse.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCourse.IconSize = 30;
-            this.btnCourse.Location = new System.Drawing.Point(0, 202);
+            this.btnCourse.Location = new System.Drawing.Point(0, 252);
+            this.btnCourse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCourse.Name = "btnCourse";
-            this.btnCourse.Size = new System.Drawing.Size(230, 60);
+            this.btnCourse.Size = new System.Drawing.Size(259, 75);
             this.btnCourse.TabIndex = 4;
             this.btnCourse.Tag = "  Khóa học";
             this.btnCourse.Text = "  Khóa học";
@@ -229,9 +237,10 @@
             this.btnSchedule.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSchedule.IconSize = 30;
             this.btnSchedule.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSchedule.Location = new System.Drawing.Point(0, 142);
+            this.btnSchedule.Location = new System.Drawing.Point(0, 177);
+            this.btnSchedule.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(230, 60);
+            this.btnSchedule.Size = new System.Drawing.Size(259, 75);
             this.btnSchedule.TabIndex = 3;
             this.btnSchedule.Tag = "  Thời khóa biểu";
             this.btnSchedule.Text = "  Thời khóa biểu";
@@ -250,9 +259,10 @@
             this.btnStudent.IconColor = System.Drawing.Color.Black;
             this.btnStudent.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnStudent.IconSize = 30;
-            this.btnStudent.Location = new System.Drawing.Point(0, 82);
+            this.btnStudent.Location = new System.Drawing.Point(0, 102);
+            this.btnStudent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnStudent.Name = "btnStudent";
-            this.btnStudent.Size = new System.Drawing.Size(230, 60);
+            this.btnStudent.Size = new System.Drawing.Size(259, 75);
             this.btnStudent.TabIndex = 2;
             this.btnStudent.Tag = "  Học viên";
             this.btnStudent.Text = "  Học viên";
@@ -267,16 +277,18 @@
             this.panel1.Controls.Add(this.btnMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 82);
+            this.panel1.Size = new System.Drawing.Size(259, 102);
             this.panel1.TabIndex = 0;
             // 
             // picLogo
             // 
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.Location = new System.Drawing.Point(0, 0);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(181, 82);
+            this.picLogo.Size = new System.Drawing.Size(204, 102);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
@@ -290,9 +302,10 @@
             this.btnMenu.IconColor = System.Drawing.Color.Black;
             this.btnMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMenu.IconSize = 30;
-            this.btnMenu.Location = new System.Drawing.Point(179, 0);
+            this.btnMenu.Location = new System.Drawing.Point(201, 0);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(51, 42);
+            this.btnMenu.Size = new System.Drawing.Size(57, 52);
             this.btnMenu.TabIndex = 0;
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
@@ -304,9 +317,10 @@
             this.panelTitleBar.Controls.Add(this.btnMaximize);
             this.panelTitleBar.Controls.Add(this.btnExit);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(230, 0);
+            this.panelTitleBar.Location = new System.Drawing.Point(259, 0);
+            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(857, 60);
+            this.panelTitleBar.Size = new System.Drawing.Size(964, 75);
             this.panelTitleBar.TabIndex = 2;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown_1);
             // 
@@ -320,9 +334,10 @@
             this.btnMinimize.IconColor = System.Drawing.Color.Black;
             this.btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMinimize.IconSize = 25;
-            this.btnMinimize.Location = new System.Drawing.Point(722, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(812, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(45, 27);
+            this.btnMinimize.Size = new System.Drawing.Size(51, 34);
             this.btnMinimize.TabIndex = 3;
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
@@ -337,9 +352,10 @@
             this.btnMaximize.IconColor = System.Drawing.Color.Black;
             this.btnMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMaximize.IconSize = 25;
-            this.btnMaximize.Location = new System.Drawing.Point(767, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(863, 0);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(45, 27);
+            this.btnMaximize.Size = new System.Drawing.Size(51, 34);
             this.btnMaximize.TabIndex = 2;
             this.btnMaximize.UseVisualStyleBackColor = false;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
@@ -354,9 +370,10 @@
             this.btnExit.IconColor = System.Drawing.Color.Black;
             this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExit.IconSize = 23;
-            this.btnExit.Location = new System.Drawing.Point(812, 0);
+            this.btnExit.Location = new System.Drawing.Point(914, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 27);
+            this.btnExit.Size = new System.Drawing.Size(51, 34);
             this.btnExit.TabIndex = 1;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -365,22 +382,25 @@
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.Lavender;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(230, 60);
+            this.panelDesktop.Location = new System.Drawing.Point(259, 75);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.panelDesktop.Size = new System.Drawing.Size(857, 637);
+            this.panelDesktop.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.panelDesktop.Size = new System.Drawing.Size(964, 796);
             this.panelDesktop.TabIndex = 3;
             // 
             // frmEnglishAcademyManage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 697);
+            this.ClientSize = new System.Drawing.Size(1223, 871);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmEnglishAcademyManage";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmEnglishAcademyManage_Load);
             this.Resize += new System.EventHandler(this.frmEnglishAcademyManage_Resize);
             this.panelMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

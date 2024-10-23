@@ -9,7 +9,7 @@ namespace EnglishAcademyManage_BUS
 {
     public class ReceiptService
     {
-        private readonly EnglishAcademyDbContext _dbContext; // Thay thế 'YourDbContext' bằng tên context của bạn
+        private readonly EnglishAcademyDbContext _dbContext; 
 
         public ReceiptService(EnglishAcademyDbContext dbContext)
         {

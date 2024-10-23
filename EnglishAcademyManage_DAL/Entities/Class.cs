@@ -11,6 +11,7 @@ namespace EnglishAcademyManage_DAL.Entities
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Class()
         {
+            Attendances = new HashSet<Attendance>();
             ScheduleDetails = new HashSet<ScheduleDetail>();
         }
 
@@ -34,6 +35,9 @@ namespace EnglishAcademyManage_DAL.Entities
         public DateTime? end_date { get; set; }
 
         public bool? Status { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Attendance> Attendances { get; set; }
 
         public virtual Course Course { get; set; }
 
