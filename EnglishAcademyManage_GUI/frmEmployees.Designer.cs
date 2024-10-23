@@ -33,7 +33,6 @@
             this.txtSalary = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.lblEmloyeeInfor = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.lblEmployeeID = new System.Windows.Forms.Label();
             this.lblPhone = new System.Windows.Forms.Label();
@@ -63,6 +62,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.err = new System.Windows.Forms.ErrorProvider(this.components);
+            this.lblTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
@@ -70,42 +70,42 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.14662F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.94087F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.449008F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.4635F));
-            this.tableLayoutPanel1.Controls.Add(this.txtSalary, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.txtEmail, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblEmail, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblEmloyeeInfor, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.txtPhone, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblEmployeeID, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblPhone, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.cmbPosition, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblPosition, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.txtLastName, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.txtFirstName, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.txtEmloyeeID, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblLastName, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.lblFirstName, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.lblSalary, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.lblHireDate, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.dtHireDate, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtSalary, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txtEmail, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblEmail, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtPhone, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblEmployeeID, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblPhone, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.cmbPosition, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblPosition, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtLastName, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtFirstName, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtEmloyeeID, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblLastName, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblFirstName, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblSalary, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblHireDate, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.dtHireDate, 1, 2);
             this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 58);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1078, 227);
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1078, 185);
             this.tableLayoutPanel1.TabIndex = 40;
             // 
             // txtSalary
@@ -115,7 +115,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSalary.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtSalary.Location = new System.Drawing.Point(221, 189);
+            this.txtSalary.Location = new System.Drawing.Point(221, 152);
             this.txtSalary.Margin = new System.Windows.Forms.Padding(4);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(325, 28);
@@ -127,7 +127,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEmail.Location = new System.Drawing.Point(655, 152);
+            this.txtEmail.Location = new System.Drawing.Point(655, 115);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(396, 28);
@@ -139,27 +139,12 @@
             this.lblEmail.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEmail.Location = new System.Drawing.Point(593, 148);
+            this.lblEmail.Location = new System.Drawing.Point(593, 111);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(54, 37);
             this.lblEmail.TabIndex = 10;
             this.lblEmail.Text = "Email";
-            // 
-            // lblEmloyeeInfor
-            // 
-            this.lblEmloyeeInfor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEmloyeeInfor.AutoSize = true;
-            this.lblEmloyeeInfor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmloyeeInfor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEmloyeeInfor.Location = new System.Drawing.Point(4, 0);
-            this.lblEmloyeeInfor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblEmloyeeInfor.Name = "lblEmloyeeInfor";
-            this.lblEmloyeeInfor.Size = new System.Drawing.Size(209, 37);
-            this.lblEmloyeeInfor.TabIndex = 13;
-            this.lblEmloyeeInfor.Text = "Thông Tin Nhân Viên";
             // 
             // txtPhone
             // 
@@ -168,7 +153,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtPhone.Location = new System.Drawing.Point(221, 152);
+            this.txtPhone.Location = new System.Drawing.Point(221, 115);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(325, 28);
@@ -182,7 +167,7 @@
             this.lblEmployeeID.AutoSize = true;
             this.lblEmployeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmployeeID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEmployeeID.Location = new System.Drawing.Point(4, 37);
+            this.lblEmployeeID.Location = new System.Drawing.Point(4, 0);
             this.lblEmployeeID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmployeeID.Name = "lblEmployeeID";
             this.lblEmployeeID.Size = new System.Drawing.Size(209, 37);
@@ -197,7 +182,7 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPhone.Location = new System.Drawing.Point(4, 148);
+            this.lblPhone.Location = new System.Drawing.Point(4, 111);
             this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(209, 37);
@@ -209,7 +194,7 @@
             this.cmbPosition.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cmbPosition.FormattingEnabled = true;
-            this.cmbPosition.Location = new System.Drawing.Point(654, 114);
+            this.cmbPosition.Location = new System.Drawing.Point(654, 77);
             this.cmbPosition.Name = "cmbPosition";
             this.cmbPosition.Size = new System.Drawing.Size(395, 30);
             this.cmbPosition.TabIndex = 15;
@@ -220,7 +205,7 @@
             this.lblPosition.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPosition.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPosition.Location = new System.Drawing.Point(568, 111);
+            this.lblPosition.Location = new System.Drawing.Point(568, 74);
             this.lblPosition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPosition.Name = "lblPosition";
             this.lblPosition.Size = new System.Drawing.Size(79, 37);
@@ -234,7 +219,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtLastName.Location = new System.Drawing.Point(221, 78);
+            this.txtLastName.Location = new System.Drawing.Point(221, 41);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(4);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(325, 28);
@@ -246,7 +231,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtFirstName.Location = new System.Drawing.Point(655, 78);
+            this.txtFirstName.Location = new System.Drawing.Point(655, 41);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(396, 28);
@@ -259,7 +244,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEmloyeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmloyeeID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEmloyeeID.Location = new System.Drawing.Point(221, 41);
+            this.txtEmloyeeID.Location = new System.Drawing.Point(221, 4);
             this.txtEmloyeeID.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmloyeeID.Name = "txtEmloyeeID";
             this.txtEmloyeeID.Size = new System.Drawing.Size(325, 28);
@@ -273,7 +258,7 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLastName.Location = new System.Drawing.Point(4, 74);
+            this.lblLastName.Location = new System.Drawing.Point(4, 37);
             this.lblLastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(209, 37);
@@ -286,7 +271,7 @@
             this.lblFirstName.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFirstName.Location = new System.Drawing.Point(605, 74);
+            this.lblFirstName.Location = new System.Drawing.Point(605, 37);
             this.lblFirstName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(42, 37);
@@ -301,10 +286,10 @@
             this.lblSalary.AutoSize = true;
             this.lblSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalary.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblSalary.Location = new System.Drawing.Point(4, 185);
+            this.lblSalary.Location = new System.Drawing.Point(4, 148);
             this.lblSalary.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSalary.Name = "lblSalary";
-            this.lblSalary.Size = new System.Drawing.Size(209, 42);
+            this.lblSalary.Size = new System.Drawing.Size(209, 37);
             this.lblSalary.TabIndex = 16;
             this.lblSalary.Text = "Lương";
             // 
@@ -316,7 +301,7 @@
             this.lblHireDate.AutoSize = true;
             this.lblHireDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHireDate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblHireDate.Location = new System.Drawing.Point(4, 111);
+            this.lblHireDate.Location = new System.Drawing.Point(4, 74);
             this.lblHireDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHireDate.Name = "lblHireDate";
             this.lblHireDate.Size = new System.Drawing.Size(209, 37);
@@ -328,7 +313,7 @@
             this.dtHireDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dtHireDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtHireDate.Location = new System.Drawing.Point(221, 115);
+            this.dtHireDate.Location = new System.Drawing.Point(221, 78);
             this.dtHireDate.Margin = new System.Windows.Forms.Padding(4);
             this.dtHireDate.Name = "dtHireDate";
             this.dtHireDate.Size = new System.Drawing.Size(325, 27);
@@ -338,7 +323,7 @@
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(951, 236);
+            this.btnSearch.Location = new System.Drawing.Point(951, 250);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(98, 30);
             this.btnSearch.TabIndex = 48;
@@ -366,11 +351,11 @@
             this.Column8,
             this.Column6});
             this.dgvEmployee.GridColor = System.Drawing.Color.AliceBlue;
-            this.dgvEmployee.Location = new System.Drawing.Point(44, 275);
+            this.dgvEmployee.Location = new System.Drawing.Point(44, 296);
             this.dgvEmployee.Name = "dgvEmployee";
             this.dgvEmployee.RowHeadersWidth = 51;
             this.dgvEmployee.RowTemplate.Height = 24;
-            this.dgvEmployee.Size = new System.Drawing.Size(1005, 332);
+            this.dgvEmployee.Size = new System.Drawing.Size(1005, 311);
             this.dgvEmployee.TabIndex = 49;
             this.dgvEmployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudent_CellContentClick);
             // 
@@ -455,7 +440,7 @@
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtSearch.Location = new System.Drawing.Point(730, 238);
+            this.txtSearch.Location = new System.Drawing.Point(730, 252);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(206, 28);
             this.txtSearch.TabIndex = 47;
@@ -490,12 +475,24 @@
             // 
             this.err.ContainerControl = this;
             // 
+            // lblTitle
+            // 
+            this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(0, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(1078, 58);
+            this.lblTitle.TabIndex = 61;
+            this.lblTitle.Text = "THÔNG TIN NHÂN VIÊN";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmEmployees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1078, 651);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.dgvEmployee);
             this.Controls.Add(this.btnAdd);
@@ -520,7 +517,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label lblEmloyeeInfor;
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label lblEmployeeID;
         private System.Windows.Forms.Label lblPhone;
@@ -551,5 +547,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.ErrorProvider err;
+        private System.Windows.Forms.Label lblTitle;
     }
 }

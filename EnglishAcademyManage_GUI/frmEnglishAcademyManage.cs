@@ -147,11 +147,13 @@ namespace EnglishAcademyManage_GUI
         private void btnSchedule_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
+            OpenChildForm(new frmSchedule());
         }
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
+            OpenChildForm(new frmSchedule());
         }
 
         private void btnTeacher_Click(object sender, EventArgs e)
