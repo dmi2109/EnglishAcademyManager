@@ -30,8 +30,6 @@ namespace EnglishAcademyManage_DAL.Entities
 
         [StringLength(10)]
         public string phone { get; set; }
-        public bool? Status { get; set; }
-
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Account> Accounts { get; set; }

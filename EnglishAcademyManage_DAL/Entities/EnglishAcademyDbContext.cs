@@ -14,6 +14,7 @@ namespace EnglishAcademyManage_DAL.Entities
 
         public virtual DbSet<AcademicResult> AcademicResults { get; set; }
         public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<Attendance> Attendances { get; set; }
         public virtual DbSet<Class> Classes { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
@@ -63,6 +64,16 @@ namespace EnglishAcademyManage_DAL.Entities
                 .Property(e => e.password)
                 .IsUnicode(false);
 
+            modelBuilder.Entity<Attendance>()
+                .Property(e => e.student_id)
+                .IsFixedLength()
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Attendance>()
+                .Property(e => e.class_id)
+                .IsFixedLength()
+                .IsUnicode(false);
+
             modelBuilder.Entity<Class>()
                 .Property(e => e.class_id)
                 .IsFixedLength()
@@ -78,6 +89,18 @@ namespace EnglishAcademyManage_DAL.Entities
                 .IsUnicode(false);
 
             modelBuilder.Entity<Class>()
+<<<<<<< HEAD
+=======
+                .Property(e => e.price)
+                .HasPrecision(8, 2);
+
+            modelBuilder.Entity<Class>()
+                .HasMany(e => e.Attendances)
+                .WithRequired(e => e.Class)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Class>()
+>>>>>>> Minh
                 .HasMany(e => e.ScheduleDetails)
                 .WithRequired(e => e.Class)
                 .WillCascadeOnDelete(false);
@@ -173,6 +196,11 @@ namespace EnglishAcademyManage_DAL.Entities
 
             modelBuilder.Entity<Student>()
                 .HasMany(e => e.AcademicResults)
+                .WithRequired(e => e.Student)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Student>()
+                .HasMany(e => e.Attendances)
                 .WithRequired(e => e.Student)
                 .WillCascadeOnDelete(false);
 

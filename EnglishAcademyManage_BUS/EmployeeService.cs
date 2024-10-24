@@ -24,7 +24,7 @@ namespace EnglishAcademyManage_BUS
                     return "Mã nhân viên đã tồn tại.";
                 }
 
-                employee.Status = true;
+                //employee.Status = true;
                 context.Employees.Add(employee);
                 context.SaveChanges();
                 return "Thêm nhân viên thành công!";
@@ -70,7 +70,7 @@ namespace EnglishAcademyManage_BUS
                 {
                     return "Sinh viên không tồn tại.";
                 }
-                existingEmployee.Status = false;
+                //existingEmployee.Status = false;
                 context.SaveChanges();
                 return "Đã đánh dấu nhân viên là đã xóa!";
             }

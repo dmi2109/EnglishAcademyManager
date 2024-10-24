@@ -18,7 +18,7 @@ namespace EnglishAcademyManage_GUI
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
-        public frmEnglishAcademyManage(/*string role*/)
+        public frmEnglishAcademyManage(string role)
         {
             InitializeComponent();
             CollapseMeunu();
@@ -30,7 +30,7 @@ namespace EnglishAcademyManage_GUI
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
-            //CustomizeUIBasedOnRole(role);
+            CustomizeUIBasedOnRole(role);
         }
 
         //Drag Form
@@ -147,11 +147,17 @@ namespace EnglishAcademyManage_GUI
         private void btnSchedule_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
+            OpenChildForm(new frmSchedule());
         }
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
+<<<<<<< HEAD
+            OpenChildForm(new frmSchedule());
+=======
+            OpenChildForm(new frmCourse());
+>>>>>>> Minh
         }
 
         private void btnTeacher_Click(object sender, EventArgs e)
@@ -170,6 +176,7 @@ namespace EnglishAcademyManage_GUI
         private void btnCheck_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
+            OpenChildForm(new frmAttendance());
         }
 
         private void btnReceipt_Click(object sender, EventArgs e)
@@ -244,5 +251,26 @@ namespace EnglishAcademyManage_GUI
         {
             Application.Exit();
         }
+
+        private void frmEnglishAcademyManage_Load(object sender, EventArgs e)
+        {
+            OpenFormInPanel<frmMain>();
+        }
+        private void OpenFormInPanel<Forms>() where Forms : Form, new()
+        {
+            if (panelDesktop.Controls.Count > 0)
+                panelDesktop.Controls.RemoveAt(0);
+
+            Form form = new Forms();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Dock = DockStyle.Fill;
+
+            panelDesktop.Controls.Add(form);
+            panelDesktop.Tag = form;
+            form.Show();
+        }
+
+
     }
 }

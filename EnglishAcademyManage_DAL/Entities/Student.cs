@@ -14,6 +14,7 @@ namespace EnglishAcademyManage_DAL.Entities
         {
             AcademicResults = new HashSet<AcademicResult>();
             Accounts = new HashSet<Account>();
+            Attendances = new HashSet<Attendance>();
             Receipts = new HashSet<Receipt>();
             Registrations = new HashSet<Registration>();
         }
@@ -36,13 +37,14 @@ namespace EnglishAcademyManage_DAL.Entities
         [StringLength(10)]
         public string phone { get; set; }
 
-        public bool? Status { get; set; }
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<AcademicResult> AcademicResults { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Account> Accounts { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Attendance> Attendances { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Receipt> Receipts { get; set; }

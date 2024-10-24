@@ -33,8 +33,8 @@ namespace EnglishAcademyManage_GUI
                 dgvStudent.Rows[index].Cells[4].Value = item.phone;
                 dgvStudent.Rows[index].Cells[5].Value = item.email;
 
-                string status = item.Status.HasValue ? (item.Status.Value ? "Active" : "Inactive") : "Unknown";
-                dgvStudent.Rows[index].Cells[6].Value = status;
+                //string status = item.Status.HasValue ? (item.Status.Value ? "Active" : "Inactive") : "Unknown";
+                //dgvStudent.Rows[index].Cells[6].Value = status;
 
                 // Tự động dãn cách theo nội dung của tất cả các dòng
                 dgvStudent.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
